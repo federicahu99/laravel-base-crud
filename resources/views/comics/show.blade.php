@@ -24,7 +24,7 @@
         </div>
     </div>
     <div class="container">
-        <a href=" {{ route('comics.index') }}">Torna indietro</a>
+        <a href=" {{ route('comics.index') }}" class="btn">Torna indietro</a>
     </div>
 </div>
 @endsection

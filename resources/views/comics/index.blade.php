@@ -11,7 +11,9 @@
             </div>
         </div>
         @endsection
+       
         <div class="cards">
+
             @foreach($comics as $comic) 
                 <div class="comic-container">
                     <a href=" {{ route('comics.show' , [ 'id'=> $comic  ]) }} ">
@@ -23,7 +25,7 @@
         </div>
     </div>
     <div class="container">
-        <a href=""></a>
+        <a href=" {{ route('comics.create') }} " class="btn">Aggiungi fumetto </a>
     </div>
 </div>
 

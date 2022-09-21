@@ -1,0 +1,36 @@
+#form{
+    .form-container {
+        display: inline-block;
+        margin: 10px 0;
+
+        label {
+            font-size: 20px;
+            margin-right: 100px;
+
+            .label-form {
+                display: block;
+                width: 500px;
+            }
+        }
+
+        input {
+            width: 300px;
+            height: 35px;
+        }
+
+        textarea{
+            width: 300px;
+            height: 60px;
+        }
+    }
+
+    #submit {
+        background-color: #1f1f1f;
+        display: inline-block;
+        padding: 10px;
+        color: dodgerblue;
+        border: 1px solid dodgerblue;
+        margin-left: 90%;
+    }
+
+}
