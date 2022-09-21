@@ -21,38 +21,13 @@ $dc_links = config('header_upper');
                 </a>
             </figure>
             <ul class="flex-bottom">
-               
                     <li>
-                        <a href="#">characters</a>
+                        <a href="{{ url('\') }}">home</a>
                     </li>
                     <li>
-                        <a href="#">comics</a>
+                        <a href="{{ route('\comics.index') }}">comics</a>
                     </li>
-                    <li>
-                        <a href="#">movies</a>
-                    </li>
-                    <li>
-                        <a href="#">tv</a>
-                    </li>
-                    <li>
-                        <a href="#">games</a>
-                    </li>
-                    <li>
-                        <a href="#">collectibles</a>
-                    </li>
-                    <li>
-                        <a href="#">fan</a>
-                    </li>
-                    <li>
-                        <a href="#">videos</a>
-                    </li>
-                    <li>
-                        <a href="#">news</a>
-                    </li>
-                    <li>
-                        <a href="#">shop</a>
-                    </li>
-                
+                    
             </ul>
             <div> 
                 <input type="text" placeholder="Search.." id="header-search">
