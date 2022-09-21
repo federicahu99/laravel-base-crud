@@ -1,6 +1,6 @@
 
 @extends('layouts.main')
-
+@dump($comics)
 @section('content')
 <div id="comics-home">
     <div class="container">

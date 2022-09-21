@@ -176,3 +176,9 @@ footer figure img {
 .container {
   margin: 0 120px;
 }
+
+.bg-black {
+  background-color: #1f1f1f;
+  color: white;
+  padding: 30px 0;
+}
