@@ -12,14 +12,13 @@
         </div>
         @endsection
         <div class="cards">
-            <!-- @foreach($comics as $comic) -->
-                    <div class="comic-container">
-                        <a href="  ">
-                            <img src="" alt="">
+             @foreach($comics as $comic) 
+             <div class="comic-container">
+                        <a href=" {{ route('comics.show' , [ 'id'=> $comic  ]) }} ">
+                            <img src="{{ $comic['thumb'] }}" alt=" {{ $comic['series']}} ">
                         </a>
-                        <h4></h4>
-                    </div>
-            <!-- @endforeach -->
+                        <h4>{{ $comic['series']}}</h4>
+             @endforeach 
         </div>
     </div>
 </div>
