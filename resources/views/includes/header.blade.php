@@ -22,7 +22,7 @@ $dc_links = config('header_upper');
             </figure>
             <ul class="flex-bottom">
                     <li>
-                        <a href="{{ route('\') }}">home</a>
+                        <a href="{{ route('home') }}">home</a>
                     </li>
                     <li>
                         <a href="{{ route('comics.index') }}">comics</a>

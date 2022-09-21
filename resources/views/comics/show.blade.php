@@ -16,12 +16,15 @@
                 <img src="{{ $comic['thumb'] }}" alt="$comic['series']">
             </figure>
             <div>
-                <h1>{{ $comic['title'] }}</h1>
-                <p> {{ $comic['description'] }}</p>
+                <h1> {{ $comic['title'] }} </h1>
+                <p> {{ $comic['description'] }} </p>
                 <h3> {{ $comic['price'] }} </h3>
                 <h5> {{ $comic['sale_date'] }} </h5>
             </div>
         </div>
+    </div>
+    <div class="container">
+        <a href=" {{ route('comics.index') }}">Torna indietro</a>
     </div>
 </div>
 @endsection

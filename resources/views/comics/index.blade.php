@@ -1,6 +1,6 @@
 
 @extends('layouts.main')
-@dump($comics)
+
 @section('content')
 <div id="comics-home">
     <div class="container">
@@ -12,15 +12,20 @@
         </div>
         @endsection
         <div class="cards">
-             @foreach($comics as $comic) 
-             <div class="comic-container">
-                        <a href=" {{ route('comics.show' , [ 'id'=> $comic  ]) }} ">
-                            <img src="{{ $comic['thumb'] }}" alt=" {{ $comic['series']}} ">
-                        </a>
-                        <h4>{{ $comic['series']}}</h4>
-             @endforeach 
+            @foreach($comics as $comic) 
+                <div class="comic-container">
+                    <a href=" {{ route('comics.show' , [ 'id'=> $comic  ]) }} ">
+                        <img src="{{ $comic['thumb'] }}" alt=" {{ $comic['series']}} ">
+                    </a>
+                    <h4>{{ $comic['series']}}</h4>
+                </div>
+            @endforeach 
         </div>
     </div>
+    <div class="container">
+        <a href=""></a>
+    </div>
 </div>
+
 
 @endsection
