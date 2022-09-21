@@ -1,0 +1,87 @@
+header {
+    #upper-header {
+        height: 23px;
+        background-color: dodgerblue;
+
+        #flex-upper-header {
+            display: flex;
+            justify-content: flex-end;
+
+            .dc-link {
+                a {
+                    color: white;
+                    text-transform: uppercase;
+
+                    &:hover,
+                    &:active {
+                        color: black;
+                    }
+                }
+            }
+
+            li {
+                margin-left: 17px;
+                font-size: 13px;
+                
+                a {
+                    color: white;
+
+                    &:hover,
+                    &:active {
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+    
+    #bottom-header {
+        height: 100px;
+
+        .flex-bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        figure {
+            width: 90px;
+            margin-top: 10px;
+
+            img {
+                width: 90%;
+            }
+        }
+
+        li {
+            text-transform: uppercase;
+            font-size: 14px;
+            margin-left: 15px;
+            
+            &:hover {
+                color: dodgerblue;
+            }
+
+            a {
+                color: black;
+                font-weight: bold;
+
+                &:hover,
+                &:active{
+                    color:dodgerblue;
+                }
+            }
+        }
+
+        input {
+            border: none;
+            transition: 0.5s;
+            padding: 7px;
+
+            &:hover,
+            &:active{
+                border: 0.5 solid dodgerblue ;
+            }
+        }
+    }
+}

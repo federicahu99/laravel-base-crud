@@ -1,0 +1,27 @@
+#comic-section {
+    background-color: #1f1f1f;
+    padding: 50px 0;
+    color: white;
+    height: 450px;
+
+    #flex-comic{
+        display:flex;
+        justify-content: space-between;
+        
+        figure {
+            width: 200px;
+            margin-right: 50px;
+        }
+
+        p{
+            margin: 20px 0;
+            text-align: justify;
+        }
+
+        h3 {
+            margin: 20px 0;
+            color: lightgreen;
+        }
+        
+    }
+}

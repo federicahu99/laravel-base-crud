@@ -1,0 +1,23 @@
+#comics-home {
+    background-color: #1f1f1f;
+    color: white;
+
+    .cards {
+      padding-top: 50px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      
+      img {
+       max-width: 80%;
+       max-height: 80%;
+      }
+      
+      .comic-container {
+        flex-basis: calc(100% / 6 - 20px);
+          margin-bottom: 50px;
+          
+        }
+      }
+    }
+    

@@ -1,0 +1,178 @@
+/* Generics */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.title {
+  background-color: #1f1f1f;
+}
+.title h2 {
+  display: inline-block;
+  padding: 10px;
+  color: white;
+  background-color: dodgerblue;
+  margin-top: -30px;
+}
+
+header #upper-header {
+  height: 23px;
+  background-color: dodgerblue;
+}
+header #upper-header #flex-upper-header {
+  display: flex;
+  justify-content: flex-end;
+}
+header #upper-header #flex-upper-header .dc-link a {
+  color: white;
+  text-transform: uppercase;
+}
+header #upper-header #flex-upper-header .dc-link a:hover, header #upper-header #flex-upper-header .dc-link a:active {
+  color: black;
+}
+header #upper-header #flex-upper-header li {
+  margin-left: 17px;
+  font-size: 13px;
+}
+header #upper-header #flex-upper-header li a {
+  color: white;
+}
+header #upper-header #flex-upper-header li a:hover, header #upper-header #flex-upper-header li a:active {
+  color: black;
+}
+header #bottom-header {
+  height: 100px;
+}
+header #bottom-header .flex-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header #bottom-header figure {
+  width: 90px;
+  margin-top: 10px;
+}
+header #bottom-header figure img {
+  width: 90%;
+}
+header #bottom-header li {
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-left: 15px;
+}
+header #bottom-header li:hover {
+  color: dodgerblue;
+}
+header #bottom-header li a {
+  color: black;
+  font-weight: bold;
+}
+header #bottom-header li a:hover, header #bottom-header li a:active {
+  color: dodgerblue;
+}
+header #bottom-header input {
+  border: none;
+  transition: 0.5s;
+  padding: 7px;
+}
+header #bottom-header input:hover, header #bottom-header input:active {
+  border: 0.5 solid dodgerblue;
+}
+
+#jumbotron {
+  height: 350px;
+  background-image: url("../img/jumbotron.jpg");
+  background-size: cover;
+}
+
+footer {
+  padding: 50px 0 0 0;
+  height: 440px;
+  background-image: url("../img/footer-bg.jpg");
+  color: white;
+}
+footer h2 {
+  margin: 20px 50px 10px 0;
+}
+footer a {
+  color: white;
+}
+footer a:hover, footer a:active {
+  color: dodgerblue;
+}
+footer ul {
+  margin-right: 50px;
+  list-style-type: none;
+}
+footer li {
+  list-style-type: none;
+}
+footer #flex-bottom {
+  display: flex;
+}
+footer figure {
+  margin-left: 140px;
+  width: 500px;
+  height: 375px;
+}
+footer figure img {
+  margin-left: 20px;
+  height: 100%;
+}
+
+#comics-home {
+  background-color: #1f1f1f;
+  color: white;
+}
+#comics-home .cards {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#comics-home .cards img {
+  max-width: 80%;
+  max-height: 80%;
+}
+#comics-home .cards .comic-container {
+  flex-basis: calc(16.6666666667% - 20px);
+  margin-bottom: 50px;
+}
+
+#comic-section {
+  background-color: #1f1f1f;
+  padding: 50px 0;
+  color: white;
+  height: 450px;
+}
+#comic-section #flex-comic {
+  display: flex;
+  justify-content: space-between;
+}
+#comic-section #flex-comic figure {
+  width: 200px;
+  margin-right: 50px;
+}
+#comic-section #flex-comic p {
+  margin: 20px 0;
+  text-align: justify;
+}
+#comic-section #flex-comic h3 {
+  margin: 20px 0;
+  color: lightgreen;
+}
+
+.container {
+  margin: 0 120px;
+}
