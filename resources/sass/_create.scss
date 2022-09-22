@@ -1,15 +1,23 @@
 #form{
+
+
     .form-container {
         display: inline-block;
         margin: 10px 0;
+        display: flex;
+        
 
         label {
             font-size: 20px;
             margin-right: 100px;
+            display: block;
+            min-width: 100px;
+            
 
             .label-form {
                 display: block;
-                width: 500px;
+                width: 600px;
+                
             }
         }
 
