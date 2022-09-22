@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use App\Models\Comics;
+use App\Models\Comic;
 
 class ComicSeeder extends Seeder
 {
@@ -14,7 +14,7 @@ class ComicSeeder extends Seeder
     {
         $comics= config('comics');
             foreach($comics as $comic){
-                $new_comic= new Comics();
+                $new_comic= new Comic();
                 $new_comic->fill($comic);
                 $new_comic->save();
             }

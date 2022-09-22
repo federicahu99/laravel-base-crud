@@ -29,8 +29,17 @@
         <form action=" {{ route('comics.destroy', $comic->id )}}" method="POST">
             @csrf
             @method('DELETE')
-            <button type="submit" class="delete">Cancella il fumetto</button>
+            <button type="submit" class="delete confirmation-delete">Cancella il fumetto</button>
         </form>
     </div>
 </div>
 @endsection
+
+<!-- <script>
+    const deleteBnts = document.querySelectorAll('.confirmation-delete');
+    deleteBnts.addEventListener('submit', (event) => {
+        event.preventDefault();
+        const hasConfirmed= confirm('Are you sure you want to delete this comic?');
+        if(HasConfirmed) deleteBnts.submit();
+    })
+</script> -->

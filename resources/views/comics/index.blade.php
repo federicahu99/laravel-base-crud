@@ -2,9 +2,7 @@
 
 @section('content')
 
-@if (session('delete'))
-    <div class="confirmation"> {{ session('delete')}} </div>
-@endif
+@include('includes.confirmation')
 
 <div id="comics-home">
     <div class="container">
