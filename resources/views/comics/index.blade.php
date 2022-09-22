@@ -1,7 +1,11 @@
-
 @extends('layouts.main')
 
 @section('content')
+
+@if (session('delete'))
+    <div class="confirmation"> {{ session('delete')}} </div>
+@endif
+
 <div id="comics-home">
     <div class="container">
         @section('title')
@@ -11,17 +15,17 @@
             </div>
         </div>
         @endsection
-       
+
         <div class="cards">
 
-            @foreach($comics as $comic) 
-                <div class="comic-container">
-                    <a href=" {{ route('comics.show' , [ $comic->id ]) }} ">
-                        <img src="{{ $comic['thumb'] }}" alt=" {{ $comic['series']}} ">
-                    </a>
-                    <h4>{{ $comic['series']}}</h4>
-                </div>
-            @endforeach 
+            @foreach($comics as $comic)
+            <div class="comic-container">
+                <a href=" {{ route('comics.show' , [ $comic->id ]) }} ">
+                    <img src="{{ $comic['thumb'] }}" alt=" {{ $comic['series']}} ">
+                </a>
+                <h4>{{ $comic['series']}}</h4>
+            </div>
+            @endforeach
         </div>
     </div>
     <div class="container">
@@ -29,5 +33,5 @@
     </div>
 </div>
 
-
 @endsection
+

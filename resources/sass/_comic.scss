@@ -6,14 +6,15 @@
 
     #flex-comic{
         display:flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         
         figure {
             width: 400px;
             margin-right: 90px;
 
             img {
-                width: 150%;
+                max-width:100px;
+                height: auto;
             }
         }
 

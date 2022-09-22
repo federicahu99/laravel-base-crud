@@ -162,6 +162,14 @@ footer figure img {
   margin-bottom: 50px;
 }
 
+.confirmation {
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  color: green;
+  background-color: #1f1f1f;
+}
+
 #comic-section {
   background-color: #1f1f1f;
   padding: 50px 0;
@@ -170,14 +178,15 @@ footer figure img {
 }
 #comic-section #flex-comic {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 #comic-section #flex-comic figure {
   width: 400px;
   margin-right: 90px;
 }
 #comic-section #flex-comic figure img {
-  width: 150%;
+  max-width: 100px;
+  height: auto;
 }
 #comic-section #flex-comic p {
   margin: 20px 0;

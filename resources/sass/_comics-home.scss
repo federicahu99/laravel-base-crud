@@ -2,30 +2,36 @@
     background-color: #1f1f1f;
     color: white;
 
-    .btn{
-      display: inline-block;
-      padding: 10px;
-      color: dodgerblue;
-      border: 1px solid dodgerblue;
-      margin: 20px 0;
-  }
+    .btn {
+        display: inline-block;
+        padding: 10px;
+        color: dodgerblue;
+        border: 1px solid dodgerblue;
+        margin: 20px 0;
+    }
 
     .cards {
-      padding-top: 50px;
-      display: flex;
-      justify-content: space-evenly;
-      flex-wrap: wrap;
-      
-      img {
-       max-width: 80%;
-       max-height: 80%;
-      }
-      
-      .comic-container {
-        flex-basis: calc(100% / 6 );
-        margin-bottom: 50px;
-          
+        padding-top: 50px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+        img {
+            max-width: 80%;
+            max-height: 80%;
         }
-      }
+
+        .comic-container {
+            flex-basis: calc(100% / 6);
+            margin-bottom: 50px;
+        }
     }
-    
+}
+
+.confirmation {
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  color: green;
+  background-color: #1f1f1f;
+}
