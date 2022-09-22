@@ -13,8 +13,9 @@
 @section('content')
 <div class="bg-black" id="form-edit">
     <div class="container">
-        <form action=" {{ route('comics.index') }} " method="POST">
+        <form action=" {{ route('comics.update' , $comic->id) }} " method="POST">
             @csrf
+            @method('PUT')
             <div class="form-component">
                 <div class="form-container">
                     <div class="label-form">
@@ -38,7 +39,7 @@
                     <div class="label-form">
                         <label for="price">Price</label>
                     </div>
-                    <input type="number" id="price" name="price" placeholder="Insert the cost of the comic\graphic novel.." value=" {{ $comic->price }} ">
+                    <input type="text" id="price" name="price" placeholder="Insert the cost of the comic\graphic novel.." value=" {{ $comic->price }} ">
                 </div>
             </div>
 
@@ -75,9 +76,9 @@
                         <label for="country">Type</label>
                     </div>
                     <select id="type" name="type" class="m-1">
-                        <option @if($comic->type === 'comic book')>comic book</option>
-                        <option @else($comic->type === 'graphic novel')>graphic novel</option>
-                        @endif
+                        <option @if($comic->type === 'comic book') selected @endif>comic book</option>
+                        <option @if($comic->type === 'graphic novel') selected @endif>graphic novel</option>
+                        
                     </select>
                 </div>
             </div>
