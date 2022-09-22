@@ -23,9 +23,14 @@
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container flex">
         <a href=" {{ route('comics.index') }}" class="btn">Torna indietro</a>
         <a href=" {{ route('comics.edit' , $comic->id) }}" class="btn">Modifica</a>
+        <form action=" {{ route('comics.destroy', $comic->id )}}" method="POST">
+            @csrf
+            @method('DELETE')
+            <button type="submit" class="delete">Cancella il fumetto</button>
+        </form>
     </div>
 </div>
 @endsection

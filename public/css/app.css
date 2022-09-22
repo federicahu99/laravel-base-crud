@@ -12,6 +12,7 @@ ul {
 
 a {
   text-decoration: none;
+  margin-right: 10px;
 }
 
 .title {
@@ -25,12 +26,9 @@ a {
   margin-top: -30px;
 }
 
-a .btn {
-  display: inline-block;
-  padding: 10px;
-  color: dodgerblue;
-  border: 1px solid dodgerblue;
-  margin-top: 2px;
+.flex {
+  display: flex;
+  align-items: center;
 }
 
 header #upper-header {
@@ -194,6 +192,14 @@ footer figure img {
   padding: 10px;
   color: dodgerblue;
   border: 1px solid dodgerblue;
+  margin-top: 20px;
+}
+#comic-section .delete {
+  background-color: #1f1f1f;
+  display: inline-block;
+  padding: 10px;
+  color: red;
+  border: 1px solid red;
   margin-top: 20px;
 }
 
