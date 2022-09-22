@@ -18,22 +18,6 @@ return [
         'url' => '/'
     ],
     [
-        'name' => 'Jobs',
-        'url' => '/'
-    ],
-    [
-        'name' => 'Subscription',
-        'url' => '/'
-    ],
-    [
-        'name' => 'Talent Workshops',
-        'url' => '/'
-    ],
-    [
-        'name' => 'CPSC Certificates',
-        'url' => '/'
-    ],
-    [
         'name' => 'Rating',
         'url' => '/'
     ],

@@ -4,15 +4,15 @@ $dc_links = config('header_upper');
 ?>
 
 <header>
-<!-- upper header -->
+    <!-- upper header -->
     <div id="upper-header">
         <ul id="flex-upper-header" class="container">
             @foreach($dc_links as $dc_link)
-                <li class="dc-link"><a href="">{{$dc_link['name']}}</a></li>
+            <li class="dc-link"><a href="">{{$dc_link['name']}}</a></li>
             @endforeach
         </ul>
     </div>
-<!-- bottom header -->
+    <!-- bottom header -->
     <div id="bottom-header">
         <div class="container flex-bottom">
             <figure>
@@ -21,17 +21,14 @@ $dc_links = config('header_upper');
                 </a>
             </figure>
             <ul class="flex-bottom">
-                    <li>
-                        <a href="{{ route('home') }}">home</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('comics.index') }}">comics</a>
-                    </li>
-                    
+                <li>
+                    <a href="{{ route('home') }}">home</a>
+                </li>
+                <li>
+                    <a href="{{ route('comics.index') }}">comics</a>
+                </li>
+
             </ul>
-            <div> 
-                <input type="text" placeholder="Search.." id="header-search">
-            </div>
         </div>
     </div>
 </header>

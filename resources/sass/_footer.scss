@@ -1,8 +1,8 @@
 footer {
     padding: 50px 0 0 0;
     height: 440px;
-    background-image: url('../img/footer-bg.jpg');
-    color:white;
+    background-image: url("../img/footer-bg.jpg");
+    color: white;
 
     h2 {
         margin: 20px 50px 10px 0;
@@ -12,11 +12,11 @@ footer {
         color: white;
 
         &:hover,
-        &:active{
+        &:active {
             color: dodgerblue;
         }
     }
-    
+
     ul {
         margin-right: 50px;
         list-style-type: none;
@@ -24,12 +24,10 @@ footer {
 
     li {
         list-style-type: none;
-        
     }
-    
+
     #flex-bottom {
         display: flex;
-        
     }
 
     figure {
@@ -37,9 +35,8 @@ footer {
         width: 500px;
         height: 375px;
         img {
-        margin-left: 20px;
-        height: 100%;
+            margin-left: 20px;
+            height: 100%;
         }
     }
-
 }

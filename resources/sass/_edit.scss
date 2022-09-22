@@ -1,22 +1,18 @@
-#form-create {
-
+#form-edit {
     .form-container {
         display: inline-block;
         margin: 10px 0;
         display: flex;
-        
 
         label {
             font-size: 20px;
             margin-right: 100px;
             display: block;
             min-width: 100px;
-            
 
             .label-form {
                 display: block;
                 width: 600px;
-                
             }
         }
 
@@ -25,7 +21,7 @@
             height: 35px;
         }
 
-        textarea{
+        textarea {
             width: 300px;
             height: 60px;
         }
@@ -39,5 +35,4 @@
         border: 1px solid dodgerblue;
         margin-left: 70%;
     }
-
 }

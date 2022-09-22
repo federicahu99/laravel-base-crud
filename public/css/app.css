@@ -197,36 +197,68 @@ footer figure img {
   margin-top: 20px;
 }
 
-#form .form-container {
+#form-create .form-container {
   display: inline-block;
   margin: 10px 0;
   display: flex;
 }
-#form .form-container label {
+#form-create .form-container label {
   font-size: 20px;
   margin-right: 100px;
   display: block;
   min-width: 100px;
 }
-#form .form-container label .label-form {
+#form-create .form-container label .label-form {
   display: block;
   width: 600px;
 }
-#form .form-container input {
+#form-create .form-container input {
   width: 300px;
   height: 35px;
 }
-#form .form-container textarea {
+#form-create .form-container textarea {
   width: 300px;
   height: 60px;
 }
-#form #submit {
+#form-create .submit {
   background-color: #1f1f1f;
   display: inline-block;
   padding: 10px;
   color: dodgerblue;
   border: 1px solid dodgerblue;
-  margin-left: 90%;
+  margin-left: 70%;
+}
+
+#form-edit .form-container {
+  display: inline-block;
+  margin: 10px 0;
+  display: flex;
+}
+#form-edit .form-container label {
+  font-size: 20px;
+  margin-right: 100px;
+  display: block;
+  min-width: 100px;
+}
+#form-edit .form-container label .label-form {
+  display: block;
+  width: 600px;
+}
+#form-edit .form-container input {
+  width: 300px;
+  height: 35px;
+}
+#form-edit .form-container textarea {
+  width: 300px;
+  height: 60px;
+}
+#form-edit .submit {
+  background-color: #1f1f1f;
+  display: inline-block;
+  padding: 10px;
+  color: dodgerblue;
+  border: 1px solid dodgerblue;
+  margin-left: 70%;
 }
 
 .container {
