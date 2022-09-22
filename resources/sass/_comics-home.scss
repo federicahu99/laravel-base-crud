@@ -13,7 +13,7 @@
     .cards {
       padding-top: 50px;
       display: flex;
-      justify-content: space-between;
+      justify-content: space-evenly;
       flex-wrap: wrap;
       
       img {
@@ -22,7 +22,7 @@
       }
       
       .comic-container {
-        flex-basis: calc(100% / 6 - 20px);
+        flex-basis: calc(100% / 6 );
         margin-bottom: 50px;
           
         }

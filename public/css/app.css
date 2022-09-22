@@ -152,7 +152,7 @@ footer figure img {
 #comics-home .cards {
   padding-top: 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 #comics-home .cards img {
@@ -160,7 +160,7 @@ footer figure img {
   max-height: 80%;
 }
 #comics-home .cards .comic-container {
-  flex-basis: calc(16.6666666667% - 20px);
+  flex-basis: 16.6666666667%;
   margin-bottom: 50px;
 }
 
@@ -168,15 +168,18 @@ footer figure img {
   background-color: #1f1f1f;
   padding: 50px 0;
   color: white;
-  height: 450px;
+  height: 500px;
 }
 #comic-section #flex-comic {
   display: flex;
   justify-content: space-between;
 }
 #comic-section #flex-comic figure {
-  width: 200px;
-  margin-right: 50px;
+  width: 400px;
+  margin-right: 90px;
+}
+#comic-section #flex-comic figure img {
+  width: 150%;
 }
 #comic-section #flex-comic p {
   margin: 20px 0;
@@ -191,7 +194,7 @@ footer figure img {
   padding: 10px;
   color: dodgerblue;
   border: 1px solid dodgerblue;
-  margin-top: 2px;
+  margin-top: 20px;
 }
 
 #form .form-container {
